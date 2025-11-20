@@ -32,7 +32,7 @@ class Animal:
         self._colour = value
 
     def eat(self, food):
-        return f"I'm an {self.species} called {self.name} using some of my {self._limb_count} limbs to eat {food}"
+        return f"I'm a {self.species} called {self.name} using some of my {self._limb_count} limbs to eat {food}"
 
     def move(self, direction, distance):
         return f"I'm an {self.species} called {self.name} moving {direction} for {distance} metres"
